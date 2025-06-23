@@ -8,3 +8,15 @@ body {
   color: black;
   background-color: white;
 }
+
+.content-wrapper {
+  padding: 0 2rem 1rem 2rem;
+  margin: 5rem;
+  border: 0.08rem solid #d8d8d8;
+  border-radius: 1rem;
+}
+
+.content-wrapper .list {
+  list-style: none;
+  padding-left: 0;
+}
