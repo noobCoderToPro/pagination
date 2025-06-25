@@ -20,3 +20,21 @@ body {
   list-style: none;
   padding-left: 0;
 }
+
+.pagination-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.pagination-item {
+  display: inline;
+  border: 0.08rem solid gray;
+  margin-left: 0.5rem;
+  padding: 0.25rem 0.5rem;
+  cursor: pointer;
+  border-radius: 0.2rem;
+}
+
+.pagination-item:nth-child(1) {
+  margin-left: 0;
+}
